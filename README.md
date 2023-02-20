@@ -7,7 +7,7 @@ Create a Firebase project and set up a Realtime Database. Follow the instruction
 
 
 
-> pip install firebase-admin: 
+ pip install firebase-admin: `nano`
 Initialize the Firebase SDK with your Firebase project credentials. Download a service account key from the Firebase console and save it to a file on your local machine. Then, initialize the Firebase SDK with the following code:
 
 python
