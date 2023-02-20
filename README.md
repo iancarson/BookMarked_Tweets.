@@ -3,9 +3,8 @@ This Application uses Firebase tools and Twitter API to find a user Bookmarked t
 ### Storing Bookmarked Tweets in Firebase using Python
 Create a Firebase project and set up a Realtime Database. Follow the instructions in the Firebase documentation to create a new project and set up a Realtime Database. Make sure to note the URL of your Realtime Database, as you will need it later.
 
-<ol>
-  <li> 1. Install the Firebase SDK for Python. Install the Firebase SDK for Python using pip:</li>
-</ol>
+- Install the Firebase SDK for Python. Install the Firebase SDK for Python using pip:
+
 
 
 pip install firebase-admin: 
