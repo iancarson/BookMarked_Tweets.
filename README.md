@@ -4,11 +4,11 @@ This Application uses Firebase tools and Twitter API to find a user Bookmarked t
 Create a Firebase project and set up a Realtime Database. Follow the instructions in the Firebase documentation to create a new project and set up a Realtime Database. Make sure to note the URL of your Realtime Database, as you will need it later.
 
 <ol>
-  <li>Install the Firebase SDK for Python. Install the Firebase SDK for Python using pip:</li>
+  <li> 1. Install the Firebase SDK for Python. Install the Firebase SDK for Python using pip:</li>
 </ol>
 
 
-<li> pip install firebase-admin: <li>
+pip install firebase-admin: 
 Initialize the Firebase SDK with your Firebase project credentials. Download a service account key from the Firebase console and save it to a file on your local machine. Then, initialize the Firebase SDK with the following code:
 
 python
