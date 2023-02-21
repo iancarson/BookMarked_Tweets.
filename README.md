@@ -24,7 +24,7 @@ firebase_admin.initialize_app(cred, {
 
 Replace path/to/serviceAccountKey.json with the path to the service account key file you downloaded in step 2, and replace your-project with the name of your Firebase project.
 
-Authenticate with the Twitter API. Use the Tweepy library to authenticate with the Twitter API using the user's API keys and access tokens.
+- **Authenticate with the Twitter API.** Use the Tweepy library to authenticate with the Twitter API using the user's API keys and access tokens.
 
 Retrieve the user's bookmarked tweets. Use the get_bookmarks() method of the tweepy.API object to retrieve a list of the user's bookmarked tweets.
 
