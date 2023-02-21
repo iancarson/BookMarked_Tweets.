@@ -26,12 +26,10 @@ Replace path/to/serviceAccountKey.json with the path to the service account key 
 
 - **Authenticate with the Twitter API.** Use the Tweepy library to authenticate with the Twitter API using the user's API keys and access tokens.
 
-- **Retrieve the user's bookmarked tweets.** Use the get_bookmarks() method of the tweepy.API object to retrieve a list of the user's bookmarked tweets.
+- **Retrieve the user's bookmarked tweets.** Use the `get_bookmarks()` method of the `tweepy.API` object to retrieve a list of the user's bookmarked tweets.
 
-Store each bookmarked tweet in Firebase. For each bookmarked tweet, create a new node in the Realtime Database and set its properties to the relevant tweet data. Here's an example of how to do this:
-
-python
-Copy code
+- **Store each bookmarked tweet in Firebase.** For each bookmarked tweet, create a new node in the Realtime Database and set its properties to the relevant tweet data. Below is the code that does this:
+```
 import tweepy
 from firebase_admin import db
 
@@ -47,4 +45,5 @@ for tweet in bookmarked_tweets:
         'timestamp': tweet.created_at.timestamp(),
         # Add any other properties you want to store
     })
+```
 This code creates a new node under the bookmarks node in the Realtime Database for each bookmarked tweet, with properties for the tweet text, author screen name, and timestamp. You can add any other properties you want to store for each tweet.
